@@ -32,7 +32,7 @@
                         <li><a href="#">Contact us</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#loginmodal" data-toggle="modal">LOGIN</a></li>
+                        <li><a href="#loginmodal" data-toggle="modal">Login</a></li>
                     </ul>
 
                 </div>
@@ -124,10 +124,8 @@
 
               </div>
               <div class="modal-footer">
-                  <input class="btn green" name="login" type="submit" value="Login">
-                <button type="button" class="btn btn-default" data-dismiss="modal">
-                  Cancel
-                </button>
+                  <input class="buttcolor" name="login" type="submit" value="Login">
+                  <input class="dfd" data-dismiss="modal" name="cancel" type="button" value="Cancel" >
                 <button type="button" class="btn btn-default pull-left"  data-dismiss="modal" data-target="#signupModal" data-toggle="modal">
                   Register
                 </button>
@@ -161,8 +159,7 @@
                   <input class="form-control" type="email" name="forgotemail" id="forgotemail" placeholder="Email" maxlength="50">
               </div>
           </div>
-          <div class="modal-footer">
-              <input class="btn green" name="forgotpassword" type="submit" value="Submit">
+          <div class="modal-footer">  value="Submit">
             <button type="button" class="btn btn-default" data-dismiss="modal">
               Cancel
             </button>
